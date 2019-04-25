@@ -14,7 +14,8 @@ let package = Package(
     ],
     targets: [
       .target(
-        name: "OpenSSL (iOS)"
+        name: "OpenSSL (iOS)",
+        path: "ios"
       )
     ]
 )
