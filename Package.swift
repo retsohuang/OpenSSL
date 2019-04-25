@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "OpenSSL",
+    name: "openssl",
     // platforms: [.iOS("8.0")],
     products: [
       .library(
-        name: "OpenSSL",
-        targets: ["OpenSSL (iOS)"]
+        name: "openssl",
+        targets: ["openssl"]
       )
     ],
     dependencies: [
     ],
     targets: [
       .target(
-        name: "OpenSSL (iOS)",
+        name: "openssl",
         path: "ios"
       )
     ]
